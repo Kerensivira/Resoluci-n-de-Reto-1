@@ -19,12 +19,12 @@ div.monto {
 div.opciones1{
 
     float: left;
-    display: inline;
+    display: inline-end;
 }
 
 div.opciones2 {
+
 float: right
-display: inline; 
 
 }
 
@@ -36,7 +36,7 @@ nav {
 
 div.buttom{
 
-    float: right;
+    position: right;
 }
 
 img{
