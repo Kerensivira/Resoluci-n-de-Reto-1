@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor</title>
+    <script src="script.js"></script>
+</head>
+<header>
+    <nav>
+        <h4>Valores&Servicios.corp</h4>
+    </nav>
+</header>
+<br></br>
+<div>
+    <a href="#"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.123rf.com%2Fphoto_92758696_estrechar-las-manos-l%25C3%25ADnea-vector-icono-concepto-de-asociaci%25C3%25B3n-y-apret%25C3%25B3n-de-manos-.html&psig=AOvVaw2M_IzInzMf-i45OrNXFQKS&ust=1637337978226000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPCNxr2lovQCFQAAAAAdAAAAABAD" alt=""> </a>
+</div>
+<form>
+    <main>
+        <centro><h1>Conversor de Divisas</h1></centro>
+    </main>
+    <br></br>
+<body>
+    <div class="monto";>
+        <centro>
+            <h2>
+                <label for="ingrese monto"></label>
+                <input type="number" id="monto" min="1" max="100">
+            </h2>
+        </centro>
+    </div>
+    <br></br>
+    <div class="opciones1">
+        <label for="seleccione moneda local"></label>
+        <select name="select" id="Divisas">
+            <option> select </option>
+            <option value="COP (Peso Colombiano)">COP (Peso Colombiano)</option>
+            <option value="EUR (Euro)">EUR (Euro)</option>
+            <option value="GBP (Libra Esterlina)">GBP (Libra Esterlina)</option>
+            <option value="MXN (Peso Mexicano)">MXN (Peso Mexicano)</option>
+            <option value="USD (Dólar Estadounidense)">USD (Dólar Estadounidense)</option>
+        </select> 
+    </div>
+    <div class="opciones2">
+        <label for="seleccione moneda destino"></label>
+        <select name="select" id="Divisas">
+            <option> select </option>
+            <option value="COP (Peso Colombiano)">COP (Peso Colombiano)</option>
+            <option value="EUR (Euro)">EUR (Euro)</option>
+            <option value="GBP (Libra Esterlina)">GBP (Libra Esterlina)</option>
+            <option value="MXN (Peso Mexicano)">MXN (Peso Mexicano)</option>
+            <option value="USD (Dólar Estadounidense)">USD (Dólar Estadounidense)</option>
+        </select> 
+    </div>
+    <br></br>
+    <centro>
+        <input type="submit" id="calcular" value="calcular" onclick="convertir()"
+        <input type="reset" id="limpiar" value="limpiar" onclick=""
+    </centro>
+    <br></br>
+    <centro>
+        <label for="total">total</label>
+        <input type="text" id="total" readonly>
+    </centro>
+    </form>
+</body>
+</html>
