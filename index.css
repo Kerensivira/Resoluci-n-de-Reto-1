@@ -1,0 +1,46 @@
+* {background-color: rgba(172, 255, 47, 0.205);}
+
+*{
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700;
+    color: rgb(33, 88, 37);
+}
+
+div.monto {
+    float:none;
+}
+
+div.opciones1{
+
+    float: left;
+    display: inline;
+}
+
+div.opciones2 {
+float: right
+display: inline; 
+
+}
+
+nav {
+
+    width: 100%;
+    color: lightgreen;
+}
+
+div.buttom{
+
+    float: right;
+}
+
+img{
+width: 200px;
+height: 200px;
+justify-content: center;
+}
