@@ -18,7 +18,7 @@ div.monto {
 
 div.opciones1{
 
-    float: left;
+    position: left;
     display: inline-end;
 }
 
