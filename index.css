@@ -1,0 +1,17 @@
+* {background-color: blanchedalmond;}
+
+*{
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700;
+    color: indianred;
+}
+
+div.monto {
+    float:none;
+}
