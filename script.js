@@ -93,15 +93,26 @@ alert("el cambio de USD A EUR es:" + resultado)
         alert("el cambio de GBP a MXN es:" + resultado)
     }
 else if (document.getElementById(MXN).Checked){
-    resultado = valore/COP;
-    alert("el cambio de MXN a COP es:" + resultado)
+    resultado = valore/GBP;
+    alert("el cambio de MXN a GBP es:" + resultado)
 }
-if (document.getElementById(COP).Checked){
+if (document.getElementById(GBP).Checked){
     resultado = valore/USD;
-alert("el cambio de COP a USD es:" + resultado)
+alert("el cambio de GBP a USD es:" + resultado)
 }
 else if (document.getElementById(USD).Checked){
-    resultado = valore/COP;
-    alert("el cambio de USD a COP es:" + resultado)
+    resultado = valore/GBP;
+    alert("el cambio de USD a GBP es:" + resultado)
 }
+}
+
+//MXN A TODAS LAS MONEDAS
+
+if (document.getElementById(MXN).Checked){
+    resultado = valore/USD;
+alert("el cambio de MXN a USD es:" + resultado)
+}
+else if (document.getElementById(USD).Checked){
+    resultado = valore/MXN;
+    alert("el cambio de USD a MXN es:" + resultado)
 }
