@@ -51,6 +51,57 @@ else if (document.getElementById(MXN).Checked){
 }
 if (document.getElementById(COP).Checked){
     resultado = valore/USD;
-    
+alert("el cambio de COP a USD es:" + resultado)
+}
+else if (document.getElementById(USD).Checked){
+    resultado = valore/COP;
+    alert("el cambio de USD a COP es:" + resultado)
+}
+}
+//EUR A TODAS LAS MONEDAS 
+
+if(document.getElementById(EUR).Checked) {
+    resultado = valore/GBP;
+    alert("el cambio de EUR a GBP es:"+ resultado)
+}
+else if (document.getElementById(GBP).Checked){
+    resultado = valore/GBP;
+    alert("el cambio de GBP a EUR es:" + resultado)
+}
+
+if (document.getElementById(EUR).Checked){
+    resultado = valore/MXN;
+    alert("el cambio de EUR a MXN es:" + resultado)
+}
+else if (document.getElementById(MXN). Checked) {
+    resultado = valore/EUR;
+    alert("el cambio de MXN a EUR es:" + resultado)
+}
+if (document.getElementById(EUR).Checked){
+    resultado = valore/USD;
+    alert("el cambio de EUR a USD es:" + resultado)
+}
+else if (document.getElementById(USD).Checked)
+resultado = valore/EUR;
+alert("el cambio de USD A EUR es:" + resultado)
+
+//GBP A TODAS LAS MONEDAS.
+
+{
+    if (document.getElementById(GBP).Checked){
+        resultado = valore/MXN;
+        alert("el cambio de GBP a MXN es:" + resultado)
+    }
+else if (document.getElementById(MXN).Checked){
+    resultado = valore/COP;
+    alert("el cambio de MXN a COP es:" + resultado)
+}
+if (document.getElementById(COP).Checked){
+    resultado = valore/USD;
+alert("el cambio de COP a USD es:" + resultado)
+}
+else if (document.getElementById(USD).Checked){
+    resultado = valore/COP;
+    alert("el cambio de USD a COP es:" + resultado)
 }
 }
