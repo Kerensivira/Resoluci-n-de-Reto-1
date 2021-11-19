@@ -3,13 +3,13 @@ function convertir() {
     let elIdCalcular = document.getElementById("calcular");
     elIdCalcular.addEventListener("click", () => {
         console.log("estoy convirtiendo");
-
+    }
         // capturar el valor de "elIdCalcular": elIdCalcular.value
 
         const getCalcular = () => {
             let elIdCalcular = document.getElementById("calcular").value;
             document.getElementById("calcular").innerHTML = inputValue
-
+        }
             // capturar la moneda inicial (local)
 
             const getDivisas1 = () => {
@@ -22,7 +22,6 @@ function convertir() {
             const getDivisas2 = () => {
                 let elIdDivisas1 = document.getElementById("Divisas2").value;
                 document.getElementById("Divisas2").innerHTML = inputValue
-            }
 
             let valore = ["resultado", "COP", "EUR", "GBP", "MXN", "USD"];
             let valore = parseInt(document.getElementById("monto").value);
@@ -32,6 +31,7 @@ function convertir() {
             let GBP = 10;
             let MXN = 20;
             let USD = 50;
+            }
 
             //COP A TODAS LAS MONEDAS.
 
@@ -77,7 +77,7 @@ function convertir() {
                     resultado = valore / COP;
                     alert("el cambio de USD a COP es:" + resultado)
                 }
-            }
+            
             //EUR A TODAS LAS MONEDAS 
 
             if (document.getElementById(EUR).Checked) {
