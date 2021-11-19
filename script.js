@@ -135,4 +135,5 @@ const getCalcular = () => {
         else if (document.getElementById(USD).Checked) {
             resultado = valore / MXN;
             alert("el cambio de USD a MXN es:" + resultado)
+        
         }
