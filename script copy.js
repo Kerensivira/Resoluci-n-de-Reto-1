@@ -24,9 +24,19 @@ function convertir() {
                 document.getElementById("Divisas2").innerHTML = inputValue
             }
 
-            // IFs de conversion"----> valor convertido
-            // Caturarar el elemnto de respuesta con id "total" y asignarle el valor convertido.
-        });
+            let valore = ["resultado", "COP", "EUR", "GBP", "MXN", "USD"];
+            let valore = parseInt(document.getElementById("monto").value);
+            let resultado = 0;
+            let COP = 10;
+            let EUR = 20;
+            let GBP = 10;
+            let MXN = 20;
+            let USD = 50;
+        }
+
+        // IFs de conversion"----> valor convertido
+        // Caturarar el elemnto de respuesta con id "total" y asignarle el valor convertido.
+    });
 }
 
 
@@ -35,14 +45,6 @@ function convertir()
 Input.addEventListener, "convertir"(); {
     console.log(convertir)
 
-    var valore = ["resultado", "COP", "EUR", "GBP", "MXN", "USD"];
-    var valore = parseInt(document.getElementById("monto").value);
-    var resultado = 0;
-    var COP = 10;
-    var EUR = 20;
-    var GBP = 10;
-    var MXN = 20;
-    var USD = 50;
 
 }
 
