@@ -20,6 +20,7 @@ function convertir() {
                 elResultado = elMonto;
             }
         }
+       
         if (MonedaLocal == "EUR (Euro)") {
             {
                 elResultado = elMonto * 0,00023;
@@ -28,13 +29,13 @@ function convertir() {
             {
                 elResultado = elMonto * 0,00019;
             }
-        } if (MonedaLocal == "MXN (Pesos Mexicanos)") {
+        } if (MonedaLocal == "MXN (Peso Mexicano)") {
             {
                 elResultado = elMonto * 0,0053;
             }
         } if (MonedaLocal == "USD (Dólar estadounidense)") {
             {
-                elResultado = elMonto * 0,00025 ;
+                elResultado = elMonto * 0,00025;
             }
         }
 
@@ -54,7 +55,7 @@ function convertir() {
             {
                 elResultado = elMonto * 0,84;
             }
-        } if (MonedaLocal == "MXN (Pesos Mexicanos)") {
+        } if (MonedaLocal == "MXN (Peso Mexicano)") {
             {
                 elResultado = elMonto * 23,52;
             }
@@ -79,7 +80,7 @@ function convertir() {
             {
                 elResultado = elMonto * 1,19;
             }
-        } if (MonedaLocal == "MXN (Pesos Mexicanos)") {
+        } if (MonedaLocal == "MXN (Peso Mexicano)") {
             {
                 elResultado = elMonto * 28,03;
             }
@@ -88,6 +89,32 @@ function convertir() {
                 elResultado = elMonto * 1,34;
             }
         }
+
+// MXN A TODAS LAS MONEDAS
+
+if (MonedaLocal == "MXN (Peso Mexicano)") {
+    if (MonedaDestino == GBP (LibraEsterlina)) {
+        elResultado = elMonto;
+    }
+}
+if (MonedaLocal == "COP (Peso Colombiano)") {
+    {
+        elResultado = elMonto / 5.262,37;
+    }
+} if (MonedaLocal == "EUR (Euro)") {
+    {
+        elResultado = elMonto * 1,19;
+    }
+} if (MonedaLocal == "MXN (Pesos Mexicanos)") {
+    {
+        elResultado = elMonto * 28,03;
+    }
+} if (MonedaLocal == "USD (Dólar estadounidense)") {
+    {
+        elResultado = elMonto * 1,34;
+    }
+}
+
 
 
     })
