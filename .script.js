@@ -22,19 +22,19 @@ function convertir() {
         }
         if (MonedaLocal == "EUR (Euro)") {
             {
-                elResultado = elMonto * 4.442, 50;
+                elResultado = elMonto * 0,00023;
             }
         } if (MonedaLocal == "GBP (Libras Esterlinas)") {
             {
-                elResultado = elMonto * 5.262, 37;
+                elResultado = elMonto * 0,00019;
             }
         } if (MonedaLocal == "MXN (Pesos Mexicanos)") {
             {
-                elResultado = elMonto * 187,76;
+                elResultado = elMonto * 0,0053;
             }
         } if (MonedaLocal == "USD (Dólar estadounidense)") {
             {
-                elResultado = elMonto * 3.914,00;
+                elResultado = elMonto * 0,00025 ;
             }
         }
 
@@ -52,19 +52,42 @@ function convertir() {
             }
         } if (MonedaLocal == "GBP (Libras Esterlinas)") {
             {
-                elResultado = elMonto * 1,19;
+                elResultado = elMonto * 0,84;
             }
         } if (MonedaLocal == "MXN (Pesos Mexicanos)") {
             {
-                elResultado = elMonto * 187,76;
+                elResultado = elMonto * 23,52;
             }
         } if (MonedaLocal == "USD (Dólar estadounidense)") {
             {
-                elResultado = elMonto * 3.914,00;
+                elResultado = elMonto * 1,13;
             }
         }
 
+// GBP A TODAS LAS MONEDAS 
 
+        if (MonedaLocal == "GBP (Libra Esterlina)") {
+            if (MonedaDestino == GBP (LibraEsterlina)) {
+                elResultado = elMonto;
+            }
+        }
+        if (MonedaLocal == "COP (Peso Colombiano)") {
+            {
+                elResultado = elMonto / 5.262,37;
+            }
+        } if (MonedaLocal == "EUR (Euro)") {
+            {
+                elResultado = elMonto * 0,84;
+            }
+        } if (MonedaLocal == "MXN (Pesos Mexicanos)") {
+            {
+                elResultado = elMonto * 23,52;
+            }
+        } if (MonedaLocal == "USD (Dólar estadounidense)") {
+            {
+                elResultado = elMonto * 1,13;
+            }
+        }
 
 
     })
