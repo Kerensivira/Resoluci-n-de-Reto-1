@@ -22,6 +22,10 @@ function convertir() {
             {
                 elResultado = elMonto * 4.442, 50;
             }
+        } if (MonedaLocal == "GBP (Libras Esterlinas)") {
+            {
+                elResultado = elMonto * 5.262, 37;
+            }
         }
     })
 }
