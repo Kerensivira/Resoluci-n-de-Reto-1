@@ -1,2 +1,2 @@
-let elMonto = document.getElementById("monto")
-
+let elMonto = document.getElementById("monto").Value;
+alert(elMonto);
