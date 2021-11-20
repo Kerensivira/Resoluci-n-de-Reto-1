@@ -27,7 +27,7 @@ function convertir() {
             }
         } if (MonedaLocal == "GBP (Libras Esterlinas)") {
             {
-                elResultado = elMonto * 0,00019;
+                elResultado = elMonto * 0,0001;
             }
         } if (MonedaLocal == "MXN (Peso Mexicano)") {
             {
@@ -93,28 +93,29 @@ function convertir() {
 // MXN A TODAS LAS MONEDAS
 
 if (MonedaLocal == "MXN (Peso Mexicano)") {
-    if (MonedaDestino == GBP (LibraEsterlina)) {
+    if (MonedaDestino == MXN (PesoMexicano)) {
         elResultado = elMonto;
     }
 }
 if (MonedaLocal == "COP (Peso Colombiano)") {
     {
-        elResultado = elMonto / 5.262,37;
+        elResultado = elMonto / 187,76;
     }
 } if (MonedaLocal == "EUR (Euro)") {
     {
-        elResultado = elMonto * 1,19;
+        elResultado = elMonto * 0,043;
     }
-} if (MonedaLocal == "MXN (Pesos Mexicanos)") {
+} if (MonedaLocal == "GBP (Libras Esterlinas)") {
     {
-        elResultado = elMonto * 28,03;
+        elResultado = elMonto * 0,036;
     }
 } if (MonedaLocal == "USD (Dólar estadounidense)") {
     {
-        elResultado = elMonto * 1,34;
+        elResultado = elMonto * 0,04;
     }
 }
 
+//DÓLAR A TODAS LAS MONEDAS
 
 
     })
