@@ -26,6 +26,10 @@ function convertir() {
             {
                 elResultado = elMonto * 5.262, 37;
             }
+        } if (MonedaLocal == "MXN (Pesos Mexicanos)") {
+            {
+                elResultado = elMonto * 187,76;
+            }
         }
     })
 }
