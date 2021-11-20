@@ -13,6 +13,8 @@ function convertir() {
         console.log(MonedaLocal);
         console.log(MonedaDestino);
 
+//COP A TODAS LAS MONEDAS.
+
         if (MonedaLocal == "COP (Peso Colombiano)") {
             if (MonedaDestino == COP(PesoColombiano)) {
                 elResultado = elMonto;
@@ -29,6 +31,10 @@ function convertir() {
         } if (MonedaLocal == "MXN (Pesos Mexicanos)") {
             {
                 elResultado = elMonto * 187,76;
+            }
+        } if (MonedaLocal == "USD (Dólar estadounidense)") {
+            {
+                elResultado = elMonto * 3.914,00;
             }
         }
     })
