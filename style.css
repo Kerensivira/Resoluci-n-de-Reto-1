@@ -22,9 +22,11 @@ div.monto {
 }
 
 div.opciones1{
-
-    position: left;
-    display: inline-end;
+    height: 150px;
+  left: 50px;
+  position: relative;
+  top: -50px;
+  width: 150px;
 }
 
 div.opciones2 {
