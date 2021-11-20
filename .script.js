@@ -118,5 +118,29 @@ if (MonedaLocal == "COP (Peso Colombiano)") {
 //DÓLAR A TODAS LAS MONEDAS
 
 
+if (MonedaLocal == "USD (Dólar Estadounidense)") {
+    if (MonedaDestino == USD (DólarEstadounidense)) {
+        elResultado = elMonto;
+    }
+}
+if (MonedaLocal == "COP (Peso Colombiano)") {
+    {
+        elResultado = elMonto / 3.914,00;
+    }
+} if (MonedaLocal == "EUR (Euro)") {
+    {
+        elResultado = elMonto * 0,89;
+    }
+} if (MonedaLocal == "GBP (Libras Esterlinas)") {
+    {
+        elResultado = elMonto * 0,74;
+    }
+} if (MonedaLocal == "MXN (Peso Mexicano)") {
+    {
+        elResultado = elMonto * 20,85;
+    }
+}
+
+
     })
 }
