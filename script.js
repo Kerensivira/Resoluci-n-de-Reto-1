@@ -1,5 +1,5 @@
-let elCalcular = document.getElementById("calcular")
-
+let elCalcular = document.getElementById("calcular");
+elCalcular.addEventListener("click")
 let elMonto = document.getElementById("monto").Value;
 alert(elMonto);
 console.log ("hello")
