@@ -37,5 +37,35 @@ function convertir() {
                 elResultado = elMonto * 3.914,00;
             }
         }
+
+//EURO A TODAS LAS MONEDAS
+
+
+        if (MonedaLocal == "EUR (Euro)") {
+            if (MonedaDestino == Eur(Euro)) {
+                elResultado = elMonto;
+            }
+        }
+        if (MonedaLocal == "COP (Peso Colombiano)") {
+            {
+                elResultado = elMonto / 4.442, 50;
+            }
+        } if (MonedaLocal == "GBP (Libras Esterlinas)") {
+            {
+                elResultado = elMonto * 1,19;
+            }
+        } if (MonedaLocal == "MXN (Pesos Mexicanos)") {
+            {
+                elResultado = elMonto * 187,76;
+            }
+        } if (MonedaLocal == "USD (Dólar estadounidense)") {
+            {
+                elResultado = elMonto * 3.914,00;
+            }
+        }
+
+
+
+
     })
 }
