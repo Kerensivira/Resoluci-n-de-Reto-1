@@ -77,15 +77,15 @@ function convertir() {
             }
         } if (MonedaLocal == "EUR (Euro)") {
             {
-                elResultado = elMonto * 0,84;
+                elResultado = elMonto * 1,19;
             }
         } if (MonedaLocal == "MXN (Pesos Mexicanos)") {
             {
-                elResultado = elMonto * 23,52;
+                elResultado = elMonto * 28,03;
             }
         } if (MonedaLocal == "USD (Dólar estadounidense)") {
             {
-                elResultado = elMonto * 1,13;
+                elResultado = elMonto * 1,34;
             }
         }
 
